@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Rock paper scissors game</title>
 </head>
 <body>
@@ -16,9 +17,9 @@
                     <span class="player-score">0</span>
                 </div>
                 <div class="buttons">
-                    <button class="player-pick-rock">ROCK</button>
-                    <button class="player-pick-paper">PAPER</button>
-                    <button class="player-pick-scissors">SCISSORS</button>
+                    <button id="player-pick-rock">ROCK</button>
+                    <button id="player-pick-paper">PAPER</button>
+                    <button id="player-pick-scissors">SCISSORS</button>
                 </div>
             </div>
             <div class="gamearea computer-side">
@@ -28,13 +29,13 @@
                     <span class="computer-score">0</span>
                 </div>
                 <div class="buttons">
-                    <button class="computer-pick-rock">ROCK</button>
-                    <button class="computer-pick-paper">PAPER</button>
-                    <button class="computer-pick-scissors">SCISSORS</button>
+                    <button id="computer-pick-rock">ROCK</button>
+                    <button id="computer-pick-paper">PAPER</button>
+                    <button id="computer-pick-scissors">SCISSORS</button>
                 </div>
             </div>
         </div>
-        <div class="display-result">
+        <div id="display-result">
             <h2>DUMMY TEXT</h2>
         </div>
 
